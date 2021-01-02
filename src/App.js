@@ -1,6 +1,4 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import jumboData from "./fixtures/jumbo";
-
 import * as ROUTES from "./constants/routes";
 import { Home, Signin, Signup, Browse } from "./pages";
 
