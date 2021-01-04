@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link as ReactRouterLink } from "react-router-dom";
 import {
   Background,
@@ -11,7 +12,9 @@ import {
   Group,
   Picture,
   Dropdown,
-  Profile
+  Profile,
+  Search,
+  SearchIcon
 } from "./styles/header";
 
 const Header = ({ bg = true, children, ...restProps }) => {
@@ -44,6 +47,19 @@ Header.Profile = ({ children, ...restProps }) => {
   return <Profile {...restProps}>{children}</Profile>;
 };
 
+const SearchCC = ({ searchTerm, setSearchTerm, ...restProps }) => {
+  const [searchActive, setSearchActive] = useState(false);
+
+  return (
+    <Search {...restProps}>
+      <SearchIcon
+        onClick={() => setSearchActive(searchActive => !searchActive)}>
+        <img src="/images/icons/search.png" alt="Search" />
+      </SearchIcon>
+    </Search>
+  );
+};
+
 Header.Dropdown = ({ children, ...restProps }) => {
   return <Dropdown {...restProps}>{children}</Dropdown>;
 };
@@ -67,3 +83,5 @@ Header.Logo = ({ to, ...restProps }) => {
 Header.ButtonLink = ({ children, ...restProps }) => {
   return <ButtonLink {...restProps}>{children}</ButtonLink>;
 };
+
+Header.Search = SearchCC;
