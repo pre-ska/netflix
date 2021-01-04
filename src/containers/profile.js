@@ -5,7 +5,6 @@ import * as ROUTES from "../constants/routes";
 import Logo from "../logo.svg";
 
 export const SelectProfileContainer = ({ user, setProfile }) => {
-  console.log("user in profile container", user);
   return (
     <>
       <Header bg={false}>
