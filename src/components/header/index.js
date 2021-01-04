@@ -14,7 +14,9 @@ import {
   Dropdown,
   Profile,
   Search,
-  SearchIcon
+  SearchIcon,
+  SearchInput,
+  PlayButton
 } from "./styles/header";
 
 const Header = ({ bg = true, children, ...restProps }) => {
@@ -52,10 +54,15 @@ const SearchCC = ({ searchTerm, setSearchTerm, ...restProps }) => {
 
   return (
     <Search {...restProps}>
-      <SearchIcon
-        onClick={() => setSearchActive(searchActive => !searchActive)}>
+      <SearchIcon onClick={() => setSearchActive(!searchActive)}>
         <img src="/images/icons/search.png" alt="Search" />
       </SearchIcon>
+      <SearchInput
+        value={searchTerm}
+        onChange={({ target }) => setSearchActive(target.value)}
+        placeholder="Search films and series"
+        active={searchActive}
+      />
     </Search>
   );
 };
@@ -82,6 +89,10 @@ Header.Logo = ({ to, ...restProps }) => {
 
 Header.ButtonLink = ({ children, ...restProps }) => {
   return <ButtonLink {...restProps}>{children}</ButtonLink>;
+};
+
+Header.PlayButton = ({ children, ...restProps }) => {
+  return <PlayButton {...restProps}>{children}</PlayButton>;
 };
 
 Header.Search = SearchCC;
