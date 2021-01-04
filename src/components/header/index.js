@@ -59,7 +59,7 @@ const SearchCC = ({ searchTerm, setSearchTerm, ...restProps }) => {
       </SearchIcon>
       <SearchInput
         value={searchTerm}
-        onChange={({ target }) => setSearchActive(target.value)}
+        onChange={({ target }) => setSearchTerm(target.value)}
         placeholder="Search films and series"
         active={searchActive}
       />
