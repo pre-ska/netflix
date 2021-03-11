@@ -3,7 +3,6 @@ import {
   Container,
   Inner,
   Title,
-  Frame,
   Item,
   Header,
   Body

@@ -23,7 +23,7 @@ export default function useContent(target) {
       .catch(err => {
         console.log(err);
       });
-  }, []);
+  }, [firebase, target]);
 
   return { [target]: content };
 }

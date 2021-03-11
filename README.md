@@ -1,4 +1,4 @@
-[DEMO](https://preska-ntx.netlify.app)
+work in progress....
 
 ## compound components testing
 

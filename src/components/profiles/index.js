@@ -1,4 +1,3 @@
-import { Link as ReactRouterLink } from "react-router-dom";
 import { Name, Container, Title, Picture, Item, List } from "./styles/profiles";
 
 const Profiles = ({ children, ...restProps }) => {
