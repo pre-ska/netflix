@@ -57,7 +57,7 @@ const Signin = () => {
             <Form.Submit disabled={isInvalid}>Sign In</Form.Submit>
           </Form.Base>
           <Form.Text>
-            New to Netflix?{" "}
+            New to Vetflix?{" "}
             <Form.Link to={ROUTES.SIGN_UP}>Sign Up Now</Form.Link>
           </Form.Text>
           <Form.TextSmall>

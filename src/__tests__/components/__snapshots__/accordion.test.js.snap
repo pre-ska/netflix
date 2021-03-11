@@ -1,0 +1,325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Accordion/> opens and closes <Accordion /> component 1`] = `
+<div
+  class="accordion__Container-l3iym9-0 inwkwi"
+>
+  <div
+    class="accordion__Inner-l3iym9-1 iCKpWZ"
+  >
+    <h1
+      class="accordion__Title-l3iym9-2 hGzvvg"
+    >
+      Frequently Asked Questions
+    </h1>
+    <div
+      class="accordion__Item-l3iym9-3 onkfy"
+    >
+      <div
+        class="accordion__Header-l3iym9-4 jZATdV"
+      >
+        What is Vetflix?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-l3iym9-3 onkfy"
+    >
+      <div
+        class="accordion__Header-l3iym9-4 jZATdV"
+      >
+        How much does Vetflix cost?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-l3iym9-3 onkfy"
+    >
+      <div
+        class="accordion__Header-l3iym9-4 jZATdV"
+      >
+        Where can I watch?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-l3iym9-3 onkfy"
+    >
+      <div
+        class="accordion__Header-l3iym9-4 jZATdV"
+      >
+        How do I cancel?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-l3iym9-3 onkfy"
+    >
+      <div
+        class="accordion__Header-l3iym9-4 jZATdV"
+      >
+        What can I watch on Vetflix?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Accordion/> renders the <Accordion /> with populated data 1`] = `
+<div
+  class="accordion__Container-l3iym9-0 inwkwi"
+>
+  <div
+    class="accordion__Inner-l3iym9-1 iCKpWZ"
+  >
+    <h1
+      class="accordion__Title-l3iym9-2 hGzvvg"
+    >
+      Frequently Asked Questions
+    </h1>
+    <div
+      class="accordion__Item-l3iym9-3 onkfy"
+    >
+      <div
+        class="accordion__Header-l3iym9-4 jZATdV"
+      >
+        What is Vetflix?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-l3iym9-3 onkfy"
+    >
+      <div
+        class="accordion__Header-l3iym9-4 jZATdV"
+      >
+        How much does Vetflix cost?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-l3iym9-3 onkfy"
+    >
+      <div
+        class="accordion__Header-l3iym9-4 jZATdV"
+      >
+        Where can I watch?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-l3iym9-3 onkfy"
+    >
+      <div
+        class="accordion__Header-l3iym9-4 jZATdV"
+      >
+        How do I cancel?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-l3iym9-3 onkfy"
+    >
+      <div
+        class="accordion__Header-l3iym9-4 jZATdV"
+      >
+        What can I watch on Vetflix?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Footer/> opens and closes <Accordion /> component 1`] = `
+<div
+  class="accordion__Container-l3iym9-0 inwkwi"
+>
+  <div
+    class="accordion__Inner-l3iym9-1 iCKpWZ"
+  >
+    <h1
+      class="accordion__Title-l3iym9-2 hGzvvg"
+    >
+      Frequently Asked Questions
+    </h1>
+    <div
+      class="accordion__Item-l3iym9-3 onkfy"
+    >
+      <div
+        class="accordion__Header-l3iym9-4 jZATdV"
+      >
+        What is Vetflix?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-l3iym9-3 onkfy"
+    >
+      <div
+        class="accordion__Header-l3iym9-4 jZATdV"
+      >
+        How much does Vetflix cost?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-l3iym9-3 onkfy"
+    >
+      <div
+        class="accordion__Header-l3iym9-4 jZATdV"
+      >
+        Where can I watch?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-l3iym9-3 onkfy"
+    >
+      <div
+        class="accordion__Header-l3iym9-4 jZATdV"
+      >
+        How do I cancel?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-l3iym9-3 onkfy"
+    >
+      <div
+        class="accordion__Header-l3iym9-4 jZATdV"
+      >
+        What can I watch on Vetflix?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Footer/> renders the <Accordion /> with populated data 1`] = `
+<div
+  class="accordion__Container-l3iym9-0 inwkwi"
+>
+  <div
+    class="accordion__Inner-l3iym9-1 iCKpWZ"
+  >
+    <h1
+      class="accordion__Title-l3iym9-2 hGzvvg"
+    >
+      Frequently Asked Questions
+    </h1>
+    <div
+      class="accordion__Item-l3iym9-3 onkfy"
+    >
+      <div
+        class="accordion__Header-l3iym9-4 jZATdV"
+      >
+        What is Vetflix?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-l3iym9-3 onkfy"
+    >
+      <div
+        class="accordion__Header-l3iym9-4 jZATdV"
+      >
+        How much does Vetflix cost?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-l3iym9-3 onkfy"
+    >
+      <div
+        class="accordion__Header-l3iym9-4 jZATdV"
+      >
+        Where can I watch?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-l3iym9-3 onkfy"
+    >
+      <div
+        class="accordion__Header-l3iym9-4 jZATdV"
+      >
+        How do I cancel?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+    <div
+      class="accordion__Item-l3iym9-3 onkfy"
+    >
+      <div
+        class="accordion__Header-l3iym9-4 jZATdV"
+      >
+        What can I watch on Vetflix?
+        <img
+          alt="Open"
+          src="/images/icons/add.png"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
